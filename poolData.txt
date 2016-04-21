@@ -1,0 +1,577 @@
+{
+  "pool_info": {
+    "id": 5078,
+    "name": "1x2 Pick 5",
+    "type_code": "HDA",
+    "sport_code": "FOOTBALL",
+    "status": "IN_PLAY",
+    "settlement_status": "NOT_READY",
+    "sched_start": "2015-09-10T11:00:00.000Z",
+    "sched_next": "2015-09-10T11:11:00.000Z",
+    "num_units": "133.07958905",
+    "headline_prize": "1000.0",
+    "in_rollback_mode": false,
+    "has_offers": true,
+    "prizes": {
+      "WIN": {
+        "prize_type_code": "WIN",
+        "amount": "1000.0",
+        "guarantee": "1000.0",
+        "carry_in": "0.0",
+        "pay_out": "0.0",
+        "win_units": "0.0"
+      }
+    },
+    "currency": "GBP"
+  },
+  "pool_stake": {
+    "smart_pick_perms": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      24,
+      48,
+      72,
+      108,
+      162,
+      243
+    ],
+    "stakes": [
+      "2.0",
+      "1.0",
+      "0.5",
+      "0.2"
+    ],
+    "min_stake": "0.14",
+    "max_stake": "2.1",
+    "min_cost": "0.14",
+    "max_cost": "100000000.0"
+  },
+  "history": {
+    "WIN": [
+      {
+        "event_code": "STARTED",
+        "remaining_units": "133.0",
+        "prize_code": "WIN",
+        "sport_event_history": {
+          "event_code": "STARTED",
+          "event_time": "2015-09-11T11:58:58.000Z",
+          "event_info_json": {
+            "home_id": 634,
+            "home_name": "Stoke",
+            "home_score": "0",
+            "away_id": 620,
+            "away_name": "Arsenal",
+            "away_score": "0",
+            "current_score": "0-0"
+          }
+        }
+      },
+      {
+        "event_code": "OFFICIAL",
+        "remaining_units": "43.6",
+        "prize_code": "WIN",
+        "sport_event_history": {
+          "event_code": "OFFICIAL",
+          "event_time": "2015-09-11T12:03:26.000Z",
+          "event_info_json": {
+            "home_id": 634,
+            "home_name": "Stoke",
+            "home_score": "2",
+            "away_id": 620,
+            "away_name": "Arsenal",
+            "away_score": "1",
+            "current_score": "2-1"
+          }
+        }
+      }
+    ]
+  },
+  "legs": [
+    {
+      "id": 1817,
+      "type_code": "HDA",
+      "official": true,
+      "display_order": 1,
+      "leg_order": 1,
+      "winning_selections": {
+        "WIN": [
+          1
+        ]
+      },
+      "sport_event": {
+        "id": 1092,
+        "name": "Stoke v Arsenal",
+        "status": "OFFICIAL",
+        "sport_code": "FOOTBALL",
+        "sport_sub_code": "GBFPREM",
+        "period": "FT",
+        "add_info_json": {
+          "home_id": 634,
+          "home_name": "Stoke",
+          "home_score": "2",
+          "away_id": 620,
+          "away_name": "Arsenal",
+          "away_score": "1",
+          "current_score": "2-1"
+        },
+        "sched_start": "2015-09-10T11:00:00.000Z",
+        "competitors": [
+          {
+            "id": 620,
+            "name": "Arsenal",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "D00004",
+            "add_info_json": null
+          },
+          {
+            "id": 634,
+            "name": "Stoke",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "fe0000",
+            "add_info_json": null
+          }
+        ],
+        "history": [
+          {
+            "event_code": "STARTED",
+            "event_time": "2015-09-11T11:58:58.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "0",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "0",
+              "current_score": "0-0"
+            }
+          },
+          {
+            "event_code": "PERIOD_CHANGE",
+            "event_time": "2015-09-11T11:59:42.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "0",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "0",
+              "current_score": "0-0",
+              "half_time_score": "0-0"
+            }
+          },
+          {
+            "event_code": "PERIOD_CHANGE",
+            "event_time": "2015-09-11T12:00:57.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "0",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "0",
+              "current_score": "0-0"
+            }
+          },
+          {
+            "event_code": "GOAL",
+            "event_time": "2015-09-11T12:02:56.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "1",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "0",
+              "current_score": "1-0"
+            }
+          },
+          {
+            "event_code": "GOAL",
+            "event_time": "2015-09-11T12:03:03.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "1",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "1",
+              "current_score": "1-1"
+            }
+          },
+          {
+            "event_code": "GOAL",
+            "event_time": "2015-09-11T12:03:11.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "2",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "1",
+              "current_score": "2-1"
+            }
+          },
+          {
+            "event_code": "COMPLETED",
+            "event_time": "2015-09-11T12:03:18.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "2",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "1",
+              "current_score": "2-1"
+            }
+          },
+          {
+            "event_code": "OFFICIAL",
+            "event_time": "2015-09-11T12:03:26.000Z",
+            "event_info_json": {
+              "home_id": 634,
+              "home_name": "Stoke",
+              "home_score": "2",
+              "away_id": 620,
+              "away_name": "Arsenal",
+              "away_score": "1",
+              "current_score": "2-1"
+            }
+          }
+        ]
+      },
+      "selections": [
+        {
+          "id": 21487,
+          "bin": 1,
+          "name": "Home",
+          "display_order": 1,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "43.6"
+          }
+        },
+        {
+          "id": 21488,
+          "bin": 2,
+          "name": "Draw",
+          "display_order": 2,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "0.0"
+          }
+        },
+        {
+          "id": 21489,
+          "bin": 3,
+          "name": "Away",
+          "display_order": 3,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "0.0"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1818,
+      "type_code": "HDA",
+      "official": false,
+      "display_order": 2,
+      "leg_order": 2,
+      "winning_selections": {},
+      "sport_event": {
+        "id": 1093,
+        "name": "Sunderland v Aston Villa",
+        "status": "NOT_STARTED",
+        "sport_code": "FOOTBALL",
+        "sport_sub_code": "GBFPREM",
+        "period": null,
+        "add_info_json": {
+          "home_id": 635,
+          "home_name": "Sunderland",
+          "away_id": 621,
+          "away_name": "Aston Villa"
+        },
+        "sched_start": "2015-09-10T11:11:00.000Z",
+        "competitors": [
+          {
+            "id": 621,
+            "name": "Aston Villa",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "9C0041",
+            "add_info_json": null
+          },
+          {
+            "id": 635,
+            "name": "Sunderland",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "E30021",
+            "add_info_json": null
+          }
+        ],
+        "history": []
+      },
+      "selections": [
+        {
+          "id": 21490,
+          "bin": 1,
+          "name": "Home",
+          "display_order": 1,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "17.4"
+          }
+        },
+        {
+          "id": 21491,
+          "bin": 2,
+          "name": "Draw",
+          "display_order": 2,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "17.5"
+          }
+        },
+        {
+          "id": 21492,
+          "bin": 3,
+          "name": "Away",
+          "display_order": 3,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "8.68"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1819,
+      "type_code": "HDA",
+      "official": false,
+      "display_order": 3,
+      "leg_order": 3,
+      "winning_selections": {},
+      "sport_event": {
+        "id": 1094,
+        "name": "Swansea v Bournemouth",
+        "status": "NOT_STARTED",
+        "sport_code": "FOOTBALL",
+        "sport_sub_code": "GBFPREM",
+        "period": null,
+        "add_info_json": {
+          "home_id": 636,
+          "home_name": "Swansea",
+          "away_id": 546,
+          "away_name": "Bournemouth"
+        },
+        "sched_start": "2015-09-10T11:22:00.000Z",
+        "competitors": [
+          {
+            "id": 546,
+            "name": "Bournemouth",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "cb0000",
+            "add_info_json": null
+          },
+          {
+            "id": 636,
+            "name": "Swansea",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "0",
+            "add_info_json": null
+          }
+        ],
+        "history": []
+      },
+      "selections": [
+        {
+          "id": 21493,
+          "bin": 1,
+          "name": "Home",
+          "display_order": 1,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "18.9"
+          }
+        },
+        {
+          "id": 21494,
+          "bin": 2,
+          "name": "Draw",
+          "display_order": 2,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "14.2"
+          }
+        },
+        {
+          "id": 21495,
+          "bin": 3,
+          "name": "Away",
+          "display_order": 3,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "10.5"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1820,
+      "type_code": "HDA",
+      "official": false,
+      "display_order": 4,
+      "leg_order": 4,
+      "winning_selections": {},
+      "sport_event": {
+        "id": 1095,
+        "name": "Tottenham  v Crystal Palace",
+        "status": "NOT_STARTED",
+        "sport_code": "FOOTBALL",
+        "sport_sub_code": "GBFPREM",
+        "period": null,
+        "add_info_json": {
+          "home_id": 637,
+          "home_name": "Tottenham ",
+          "away_id": 624,
+          "away_name": "Crystal Palace"
+        },
+        "sched_start": "2015-09-10T11:33:00.000Z",
+        "competitors": [
+          {
+            "id": 624,
+            "name": "Crystal Palace",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "cb0000",
+            "add_info_json": null
+          },
+          {
+            "id": 637,
+            "name": "Tottenham ",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "000000",
+            "add_info_json": null
+          }
+        ],
+        "history": []
+      },
+      "selections": [
+        {
+          "id": 21496,
+          "bin": 1,
+          "name": "Home",
+          "display_order": 1,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "15.8"
+          }
+        },
+        {
+          "id": 21497,
+          "bin": 2,
+          "name": "Draw",
+          "display_order": 2,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "16.7"
+          }
+        },
+        {
+          "id": 21498,
+          "bin": 3,
+          "name": "Away",
+          "display_order": 3,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "11.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1821,
+      "type_code": "HDA",
+      "official": false,
+      "display_order": 5,
+      "leg_order": 5,
+      "winning_selections": {},
+      "sport_event": {
+        "id": 1096,
+        "name": "Watford v Everton",
+        "status": "NOT_STARTED",
+        "sport_code": "FOOTBALL",
+        "sport_sub_code": "GBFPREM",
+        "period": null,
+        "add_info_json": {
+          "home_id": 563,
+          "home_name": "Watford",
+          "away_id": 625,
+          "away_name": "Everton"
+        },
+        "sched_start": "2015-09-10T11:44:00.000Z",
+        "competitors": [
+          {
+            "id": 563,
+            "name": "Watford",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "fcff2f",
+            "add_info_json": null
+          },
+          {
+            "id": 625,
+            "name": "Everton",
+            "sport_code": "FOOTBALL",
+            "sport_sub_code": "GBFPREM",
+            "colour": "0D397D",
+            "add_info_json": null
+          }
+        ],
+        "history": []
+      },
+      "selections": [
+        {
+          "id": 21499,
+          "bin": 1,
+          "name": "Home",
+          "display_order": 1,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "14.7"
+          }
+        },
+        {
+          "id": 21500,
+          "bin": 2,
+          "name": "Draw",
+          "display_order": 2,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "24.7"
+          }
+        },
+        {
+          "id": 21501,
+          "bin": 3,
+          "name": "Away",
+          "display_order": 3,
+          "add_info_json": null,
+          "unit_distributions": {
+            "WIN": "4.21"
+          }
+        }
+      ]
+    }
+  ]
+}

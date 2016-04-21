@@ -1,0 +1,35 @@
+{
+  "name": "colossus",
+  "version": "1.0.0",
+  "description": "tech test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-mocks": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "gzippo": "^0.2.0",
+    "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^0.3.8",
+    "morgan": "^1.7.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-usemin": "~2.0.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-rev": "~0.1.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "devDependencies": {
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}

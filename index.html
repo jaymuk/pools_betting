@@ -1,0 +1,78 @@
+<<!DOCTYPE html>
+<html ng-app="game">
+<head>
+  <title>Colossus</title>
+
+  <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap-theme.css"/>
+
+  <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+    <h1 class="text-center">Colossus Pools Betting</h1>
+
+    <div class="container" ng-controller="GameController as game">
+
+    <div class="row">
+        <div class="col-md-6">
+        <h4>Click on type to see different pool categories: </h4>
+        <ul ng-repeat="category in game.poolsData">
+            <li ng-click="game.setGroup(category)"> {{category.display_group_name}} </li>
+        </ul>
+        </div>
+
+        <div class="col-md-6" ng-show="game.categoryOnDisplay.groups.length > 0" ng-repeat="group in game.categoryOnDisplay.groups">
+            <h4>Click to see information on pool: </h4>
+            <h5>Group: {{ group.display_group_name }}</h5>
+            <ul  ng-repeat="pool in group.pools">
+                <li ng-click="game.getPool(pool.id)">{{ pool.name }}</li>
+            </ul>
+        </div>
+        <div class="col-md-6" ng-show="game.categoryOnDisplay && game.categoryOnDisplay.groups.length == 0" >
+            <h4>Click to see information on pool: </h4>
+            <ul ng-repeat="pool in game.categoryOnDisplay.pools">
+                <li ng-click="game.getPool(pool.id)"> {{ pool.name }} </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6" ng-show="game.poolOnDisplay">
+            <h3>Pool Information</h3>
+            <ul ng-repeat="(key, value) in game.poolOnDisplay.pool_info">
+                <li> {{ key }}: {{ value }}</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6" ng-show="game.poolOnDisplay">
+            <h3>Place your bet</h3>
+            <h5>Choose a Leg:</h5>   
+            <button ng-click="game.setLeg(leg)" ng-repeat="leg in game.poolOnDisplay.legs"> Leg {{$index + 1}}</button>
+            <div>
+              <h5>Choose an outcome:</h5>
+              <button ng-click="game.addSelection(selection)" ng-repeat="selection in game.legOnDisplay.selections">{{ selection.name }}</button>
+              <p>Total Number of Lines in current bet selection: {{ game.lineTotal }}</p>
+              <h5>Your selection:</h5>
+              <ul ng-repeat="(key, value) in game.betSelections">
+                  <li>{{ key }}: {{ value }}</li>
+              </ul>
+              <h5>Choose a stake amount</h5>
+              <button ng-click="game.addStake(stake)" ng-repeat="stake in game.stakes"> £{{stake}}</button>
+              <p>Total: £{{ game.betTotal.toFixed(2) }}</p>
+              <button ng-click="game.placeBet()">Place your bet</button>
+
+            </div>
+
+            <div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+    </div>
+      
+    </div>
+</body>
+</html>
