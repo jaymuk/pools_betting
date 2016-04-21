@@ -51,6 +51,7 @@ angular.module('game').controller('GameController', ['$scope', '$log', 'PoolsSer
        return self.lineTotal = total;
   };
 
+  // == Data concerning bet selection == //
   self.betSelections = {};
   self.lineTotal = 1;
   self.stakes = [2, 1, 0.50, 0.20];
@@ -99,8 +100,6 @@ angular.module('game').controller('GameController', ['$scope', '$log', 'PoolsSer
       $log.error('Failure: ' + error);
     });
   };
-
-
 }]);
 
 angular.module('game').service('PoolsService', ['$http', '$log', function($http) {
