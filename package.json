@@ -26,7 +26,8 @@
     "grunt-usemin": "~2.0.2",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-rev": "~0.1.0",
-    "grunt-contrib-clean": "~0.5.0"
+    "grunt-contrib-clean": "~0.5.0",
+    "ejs": "~1.0.0"
   },
   "devDependencies": {
     "karma-phantomjs-launcher": "^1.0.0",

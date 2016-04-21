@@ -1,0 +1,16 @@
+These are some notes to explain my thought process and some of the challenges I faced.
+
+I started writing the app TDD but ran into a roadblock and needed further clarification about the data structure, and due to time constraints, decided to abandon that approach as it would effectively double the amount of time I spent writing the code.
+
+With a lot more time - Firstly, I would TDD the whole app. I would turn each section of the web app into a directive. E.g a directive for the pool categories, one for the bet placing, etc. to make the code/html more modular, reusable and easier to navigate. I am also sure there are several sections of my code that can be refactored, for example putting most of that functionality in to services and having those services in separate files.
+
+I had some issues with deploying this on Heroku and have not had the time to fix it. This is mainly because I started the project from scratch. In the future I'd probably use a generator but that will also give me a lot of code I don't need and I have learnt a lot from approaching the test this way.
+
+I hope this is enough to show my approach and I welcome any further questions about this!
+
+To run the app:
+
+- Please simply use run `http-server` in the project directory and navigate to localhost:8081 to view the app in action.
+
+
+Cheers!

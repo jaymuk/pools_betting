@@ -41,7 +41,7 @@ module.exports = function(grunt) {
               files: [
                   {
                       expand: true,
-                      src: ['**', '!public/**', '!Gruntfile.js', '!**nbproject/**', '!access.log', '!files/**/*'], 
+                      src: ['**', '!public/**', '!Gruntfile.js', '!**nbproject/**', '!access.log', '!files/**/*', 'index.html'], 
                       dest: 'build/',
                       filter: 'isFile'
                   }
