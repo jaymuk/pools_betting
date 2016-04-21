@@ -9,8 +9,8 @@ I had some issues with deploying this on Heroku and have not had the time to fix
 I hope this is enough to show my approach and I welcome any further questions about this!
 
 To run the app:
-
-- Please simply use run `http-server` in the project directory and navigate to localhost:8081 to view the app in action.
+- Clone the repo to your local machine
+- Then simply run `http-server` in the project directory and navigate to localhost:8081 to view the app in action.
 
 
 Cheers!
